@@ -1,2 +1,2 @@
-# bounty
-A controllable economy manager for Discord servers.
+# Bounty, a controllable economy for your Discord server.
+Currently indev.
