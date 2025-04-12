@@ -9,7 +9,8 @@ const client = new Client({
         GatewayIntentBits.MessageContent,
     ] 
 });
-
+// say hi to sarah 2
+ 
 client.on('ready', () => {
     console.log(`RGPB is online.`);
   });
