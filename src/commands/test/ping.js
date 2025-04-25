@@ -1,12 +1,12 @@
 module.exports = {
-    name: 'ping',
-    description: 'Pong!',
+    name: 'whois',
+    description: 'find out whos a fag!',
     // devOnly: Boolean,
     testOnly: true,
     // options: Object[],
     // deleted: Boolean,
   
     callback: (client, interaction) => {
-      interaction.reply(`Pong! ${client.ws.ping}ms`);
+      interaction.reply(`check is a furfag!`);
     },
   };
