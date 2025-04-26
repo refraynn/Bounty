@@ -1,12 +1,12 @@
 module.exports = {
-    name: 'whois',
-    description: 'find out whos a fag!',
+    name: 'hi',
+    description: 'meow',
     // devOnly: Boolean,
     testOnly: true,
     // options: Object[],
     // deleted: Boolean,
   
     callback: (client, interaction) => {
-      interaction.reply(`check is a furfag!`);
+      interaction.reply(`hiii!!! :333 hello!!! haiiii :pppp mraow mraow :333`);
     },
   };

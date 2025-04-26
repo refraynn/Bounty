@@ -8,6 +8,8 @@ const TOKEN = process.env.BOT_TOKEN;
 const GUILD_ID = process.env.GUILD_ID;
 import eventHandler from './handlers/eventHandler.js'
 
+const rest = new REST().setToken(TOKEN);
+
 
 const client = new Client({ 
     intents: [
@@ -19,5 +21,7 @@ const client = new Client({
 
  
 eventHandler(client);
+
+
 
 client.login(TOKEN);
